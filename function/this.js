@@ -28,7 +28,7 @@ console.log(n) // undefined
 /* 例 3. */
 var Obj = {
   n: 1,
-  f: function () { return (() => this.n)() } // 箭头函数修复了嵌套多层函 this 失效的问题
+  f: function () { return (() => this.n)() }
 }
 n = Obj.f()
 console.log(n) // 1
