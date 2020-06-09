@@ -1,0 +1,12 @@
+.section{
+    margin: 10px;
+    padding: 10px;
+    background-color: gainsboro;
+}
+[title]{
+    color: green;
+}
+[title="属性和值选择器"]{
+    cursor: pointer;
+    color: rebeccapurple;
+}
